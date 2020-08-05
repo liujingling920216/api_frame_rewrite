@@ -7,9 +7,9 @@ log_output_path = os.path.join(os.path.dirname(__file__),config.logs_path)
 
 class Log:
     def __init__(self):
-        self.log_name = os.path.join(log_output_path,'api_test_%s.log'%(time.strftime('%Y_%m_%d')))
-        self.logger = logging.getLogger('test.log')
-        self.logger.setLevel(config.log_lever)
+        self.log_name = os.path.join(log_output_path,'api_test_%s.logs'%(time.strftime('%Y_%m_%d')))
+        self.logger = logging.getLogger('test.logs')
+        self.logger.setLevel(config.logs_lever)
         self.format = logging.Formatter('%(asctime)s - %(filename)s[line:%(lineno)d] - %(levelname)s: %(message)s')
 
 
@@ -31,5 +31,5 @@ class Log:
 log = Log().filelog()
 
 if __name__ == "__main__":
-    # log.info('ceshi ')
+    # logs.info('ceshi ')
     log.info('ceshi ')
