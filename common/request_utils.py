@@ -66,10 +66,20 @@ class RequestsUtils:
         return result
 
     def request(self,info):
+        param_variable_list = re.findall('\${\w+}', info['请求参数(get)']) #返回一个列表 每一项类似于 ${token} 形式
         if info['请求方式'] == 'get':
             result = self._get_request(info)
+            if param_variable_list:
+                for var in param_variable_list:
+                    temp_dic_key_name = var[2,-1]
+                    info['请求参数(get)'] = info['请求参数(get)'].replace(var,'%s'%self.temp_dict[temp_dic_key_name])
         elif info['请求方式'] == 'post':
+            param_variable_list = re.findall('\${\w+}', info['提交数据（post）'])
             result = self._post_request(info)
+            if param_variable_list:
+                for var in param_variable_list:
+                    temp_dic_key_name = var[2,-1]
+                    info['提交数据（post）'] = info['提交数据（post）'].replace(var,'%s'%self.temp_dict[temp_dic_key_name])
         else:
             result ={
                         "code" : 0 ,

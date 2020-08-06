@@ -2,15 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d0bd1e0d-6f2a-4761-98b8-5e0c73cb004c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/common/request_utils.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/re.demo.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/api_frame_rewrite.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/api_frame_rewrite.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/check_demo.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/check_demo.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/replace.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/config_utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/common/config_utils.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/log_utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/common/log_utils.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/conf/config.ini" beforeDir="false" afterPath="$PROJECT_DIR$/conf/config.ini" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/log.py" beforeDir="false" afterPath="$PROJECT_DIR$/demo/log.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/request_utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/common/request_utils.py" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/venv/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -22,87 +18,20 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/common/config_utils.py">
+        <entry file="file://$PROJECT_DIR$/demo/check_demo.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="960">
-              <caret line="32" column="26" lean-forward="true" selection-start-line="32" selection-start-column="26" selection-end-line="32" selection-end-column="26" />
+            <state relative-caret-position="450">
+              <caret line="15" column="28" lean-forward="true" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="28" />
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/common/log_utils.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="540">
-              <caret line="18" column="35" selection-start-line="18" selection-start-column="35" selection-end-line="18" selection-end-column="35" />
-              <folding>
-                <element signature="e#0#9#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/common/request_utils.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="456">
-              <caret line="84" selection-start-line="84" selection-end-line="84" />
-              <folding>
-                <element signature="e#16#25#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/demo/re.demo.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="11" lean-forward="true" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/demo/log.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="9" column="31" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="31" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/common/case_data_utils.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/common/read_excel_utils.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-992">
-              <caret line="8" column="37" lean-forward="true" selection-start-line="8" selection-start-column="37" selection-end-line="8" selection-end-column="37" />
-              <folding>
-                <element signature="e#0#11#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/conf/config.ini">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="5" column="14" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
-            </state>
-          </provider>
+        <entry file="file://$PROJECT_DIR$/common/check_demo.py">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -126,16 +55,19 @@
         <option value="$PROJECT_DIR$/conf/config.ini" />
         <option value="$PROJECT_DIR$/common/config_utils.py" />
         <option value="$PROJECT_DIR$/common/log_utils.py" />
-        <option value="$PROJECT_DIR$/common/request_utils.py" />
         <option value="$PROJECT_DIR$/demo/re.demo.py" />
+        <option value="$PROJECT_DIR$/common/request_utils.py" />
+        <option value="$PROJECT_DIR$/demo/replace.py" />
+        <option value="$PROJECT_DIR$/demo/check_demo.py" />
+        <option value="$PROJECT_DIR$/common/check_demo.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="129" />
-    <option name="y" value="12" />
-    <option name="width" value="1786" />
-    <option name="height" value="1100" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectId" id="1fdVMQBeP3HOEwJAgvskbX74EVr" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -194,12 +126,12 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\python\demo\data" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\python\demo\demo" />
       <recent name="E:\python\demo\utils" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\python\demo\data" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -214,7 +146,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.re.demo">
+  <component name="RunManager" selected="Python.check_demo">
     <configuration name="case_data_utils" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="api_frame_rewrite" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -237,7 +169,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="log_utils" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="check_demo" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="api_frame_rewrite" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -245,12 +177,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/common" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/demo" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/common/log_utils.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/demo/check_demo.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -281,7 +213,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="read_excel_utils" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="replace" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="api_frame_rewrite" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -289,12 +221,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/common" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/demo" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/common/read_excel_utils.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/demo/replace.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -327,11 +259,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.check_demo" />
+        <item itemvalue="Python.replace" />
+        <item itemvalue="Python.case_data_utils" />
         <item itemvalue="Python.re.demo" />
         <item itemvalue="Python.request_utils" />
-        <item itemvalue="Python.case_data_utils" />
-        <item itemvalue="Python.read_excel_utils" />
-        <item itemvalue="Python.log_utils" />
       </list>
     </recent_temporary>
   </component>
@@ -348,7 +280,7 @@
       <workItem from="1596417858545" duration="47070000" />
       <workItem from="1596543732799" duration="1015000" />
       <workItem from="1596590951303" duration="1955000" />
-      <workItem from="1596594057988" duration="13224000" />
+      <workItem from="1596594057988" duration="29216000" />
     </task>
     <task id="LOCAL-00001" summary="接口测试框架第一次提交：&#10;封装config.utils,case_data_utils,read_excel_utils">
       <created>1596544100419</created>
@@ -357,11 +289,18 @@
       <option name="project" value="LOCAL" />
       <updated>1596544100419</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="接口测试框架第二次提交：&#10;在requests_utils二次封装requests请求">
+      <created>1596623967795</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1596623967795</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="63264000" />
+    <option name="totallyTimeSpent" value="79256000" />
   </component>
   <component name="TodoView" selected-index="2">
     <todo-panel id="selected-file">
@@ -376,18 +315,18 @@
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23240939" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23240939" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32919255" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.4110629" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.11930586" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3991323" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.329718" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Terminal" order="11" />
@@ -402,9 +341,36 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="接口测试框架第一次提交：&#10;封装config.utils,case_data_utils,read_excel_utils" />
-    <option name="LAST_COMMIT_MESSAGE" value="接口测试框架第一次提交：&#10;封装config.utils,case_data_utils,read_excel_utils" />
+    <MESSAGE value="接口测试框架第二次提交：&#10;在requests_utils二次封装requests请求" />
+    <option name="LAST_COMMIT_MESSAGE" value="接口测试框架第二次提交：&#10;在requests_utils二次封装requests请求" />
   </component>
   <component name="WindowStateProjectService">
     <state x="490" y="215" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1596548188375">
@@ -441,8 +407,10 @@
     <state x="261" y="100" key="SettingsEditor/64.23.1376.877@64.23.1376.877" timestamp="1596547958864" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/api_frame_rewrite$case_data_utils.coverage" NAME="case_data_utils Coverage Results" MODIFIED="1596597596548" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/common" />
+    <SUITE FILE_PATH="coverage/api_frame_rewrite$replace.coverage" NAME="replace Coverage Results" MODIFIED="1596698405595" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/demo" />
+    <SUITE FILE_PATH="coverage/api_frame_rewrite$case_data_utils.coverage" NAME="case_data_utils Coverage Results" MODIFIED="1596693359228" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/common" />
     <SUITE FILE_PATH="coverage/api_frame_rewrite$re_demo.coverage" NAME="re.demo Coverage Results" MODIFIED="1596619664033" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/demo" />
+    <SUITE FILE_PATH="coverage/api_frame_rewrite$check_demo.coverage" NAME="check_demo Coverage Results" MODIFIED="1596707491840" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/demo" />
     <SUITE FILE_PATH="coverage/api_frame_rewrite$request_utils.coverage" NAME="request_utils Coverage Results" MODIFIED="1596609513471" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/common" />
     <SUITE FILE_PATH="coverage/api_frame_rewrite$log_utils.coverage" NAME="log_utils Coverage Results" MODIFIED="1596594298026" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/common" />
     <SUITE FILE_PATH="coverage/api_frame_rewrite$config_utils.coverage" NAME="config_utils Coverage Results" MODIFIED="1596594182899" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/common" />
@@ -470,6 +438,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/demo/log.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="9" column="31" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/re.demo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="569">
+          <caret line="38" column="27" lean-forward="true" selection-start-line="38" selection-start-column="27" selection-end-line="38" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/common/log_utils.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="540">
@@ -492,7 +474,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/common/read_excel_utils.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-992">
+        <state relative-caret-position="30">
           <caret line="8" column="37" lean-forward="true" selection-start-line="8" selection-start-column="37" selection-end-line="8" selection-end-column="37" />
           <folding>
             <element signature="e#0#11#0" expanded="true" />
@@ -500,36 +482,63 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/common/case_data_utils.py">
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python35/Lib/ast.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+        <state relative-caret-position="115">
+          <caret line="32" column="50" selection-start-line="32" selection-start-column="50" selection-end-line="32" selection-end-column="50" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/demo/log.py">
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python35/Lib/codecs.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="9" column="31" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="31" />
+        <state relative-caret-position="175">
+          <caret line="308" selection-start-line="308" selection-end-line="308" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python35/Lib/re.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="172" selection-start-line="172" selection-end-line="172" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/common/request_utils.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="84" selection-start-line="84" selection-end-line="84" />
+        <state relative-caret-position="-1007">
+          <caret line="66" lean-forward="true" selection-start-line="66" selection-end-line="66" />
           <folding>
             <element signature="e#16#25#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/demo/re.demo.py">
+    <entry file="file://$PROJECT_DIR$/demo/replace.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="11" lean-forward="true" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="26" />
+        <state relative-caret-position="390">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/case_data_utils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-37">
+          <caret line="16" column="40" lean-forward="true" selection-start-line="16" selection-start-column="40" selection-end-line="16" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/check_demo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="15" column="28" lean-forward="true" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="28" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/check_demo.py">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
 </project>
