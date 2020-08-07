@@ -7,10 +7,10 @@ str1 = '{"token":"abcdecf","expires_in":7200}'
 #期望结果：
 str2 = '{"token":"(.+?)","expires_in":(.+?)}'
 
-# if re.findall(str2,str1):
-#     print(True)
-# else:
-#     print(False)
+if re.findall(str2,str1):
+    print(True)
+else:
+    print(False)
 
 #2.json取值
 # str3 = 'token,expires_in1'
@@ -27,15 +27,15 @@ str2 = '{"token":"(.+?)","expires_in":(.+?)}'
 # print(result)
 
 #3.键值对匹配
-str5 = '{"token":"abcdecf","expires_in":7200}'
-
-for v in ast.literal_eval(str1).items():
-    result = True
-    if v in ast.literal_eval(str5).items():
-        result = True
-    else:
-        result = False
-    if not result:
-        break
-print(result)
+# str5 = '{"token":"abcdecf","expires_in":7200}'
+#
+# for v in ast.literal_eval(str1).items():
+#     result = True
+#     if v in ast.literal_eval(str5).items():
+#         result = True
+#     else:
+#         result = False
+#     if not result:
+#         break
+# print(result)
 
